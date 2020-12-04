@@ -1,0 +1,88 @@
+@media all and (min-width: 768px){
+	.header-menu ul{
+		display: flex !important;
+	}
+}
+
+@media all and (max-width: 767px){
+	.header-menu ul{
+		flex-direction: column;
+		display: none;
+		margin-top: 1rem;
+	}
+	.header-logo{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.header-menu {
+		justify-content:left;
+	}
+	.nav-icon{
+		display: block;
+		transition: .5s;
+	}
+	.nav-icon:hover{
+		color:#82868f;
+	}
+	.section-title {
+		padding: 15rem 0 5rem 0;
+	}
+	.team-member {
+		padding: 5rem 0;
+	}
+	
+	.footer-left ul,
+	.footer-right ul {
+		justify-content: center;
+	}
+	.footer-left ul li a {
+		margin: 0rem 0rem  0rem 1rem;
+	}
+	.footer-left {
+		margin-bottom: 1rem;
+	}
+	.footer-bottom ul{
+		justify-content: space-around;
+	}
+	.footer-bottom ul li {
+	 	margin-left: 0rem;
+}
+}	
+
+@media all and (max-width: 576px){
+	.section-top h2 {
+		font-size: 3.4rem;
+	}
+	.about-content p, 
+	.section-title p {
+		font-size: 1.6rem;
+		width: 90%;
+	}
+	.section-title {
+		padding: 2rem 0 2rem 0;
+	}
+	.about-content h2 {
+		font-size: 3.4rem;
+	}
+	.about-area {
+	 padding: 2rem 0 2rem 0;
+    }
+    .team-content h2 {
+		font-size: 3.4rem;
+	}
+	.team-area {
+		padding: 2rem 0;
+	}
+	.team-member {
+		padding: 1rem 0;
+	}
+	.maps iframe {
+		height: 350px;
+	}
+	.footer-bottom ul li:not(:last-child)::after {
+		display: none;
+	}
+
+}
+
